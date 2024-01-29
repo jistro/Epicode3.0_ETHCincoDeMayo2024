@@ -1,0 +1,8 @@
+{
+    "name": "gm_fam_sc_telporter_lib",
+    "devDependencies": {
+      "@openzeppelin/contracts": "4.9.3",
+      "@axelar-network/axelar-gmp-sdk-solidity": "^5.6.4"
+    }
+   
+  }

@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    '@openzeppelin/contracts/=node_modules/@openzeppelin/contracts',
+    '@ava-labs/teleporter/=src/teleporter/teleporter_library',
+    '@subnet-evm-contracts/=src/teleporter/subnet-evm-contracts/',
+    '@axelar-network/axelar-gmp-sdk-solidity/=node_modules/@axelar-network/axelar-gmp-sdk-solidity/',
+]
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
